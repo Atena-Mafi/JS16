@@ -1,0 +1,71 @@
+
+body{
+
+    background-color: #e2be8f;
+}
+.container{
+
+width: 90%;
+height: auto;
+margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.seasons{
+    width:40rem;
+    height: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.seasons > img{
+    width: 13rem;
+    height: 13rem;
+background-color: chartreuse;
+padding: 1rem;
+
+border-radius: 60%;
+
+}
+
+.spring{
+background: linear-gradient(to right,  #FFADE6, #F169E8);
+border: solid 0.25rem hwb(304 29% 2%);
+}
+
+.summer{
+    background: linear-gradient(to right, #90F8A7, #4DAF5D);
+    border: solid 0.25rem hsl(130, 48%, 47%);
+}
+
+.winter{
+
+    background: linear-gradient(to right,  #CDFFD8, #94B9FF);
+    border: solid 0.25rem hsl(219, 84%, 71%);
+}
+
+.fall{
+
+    background: linear-gradient(to right,  #FFDE59, #FF914D);
+    border: solid 0.25rem  hsl(23, 90%, 59%);
+}
+.text{
+    width: 25rem;
+    height: 7rem;
+
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+font-weight: bold;
+font-size: 4rem;
+font-style: italic;
+
+}
